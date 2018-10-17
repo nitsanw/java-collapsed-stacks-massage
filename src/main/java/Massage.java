@@ -49,7 +49,8 @@ public class Massage
                 stack.contains("[j]") ||
                 stack.contains("[i]") ||
                 stack.contains("Interpreter") ||
-                stack.contains("..."))
+                stack.contains("...") ||
+                stack.contains("java"))
             {
                 System.out.print("JavaThread[j];");
                 int ix;
